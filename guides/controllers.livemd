@@ -392,7 +392,7 @@ Creates a kubernetes event.
     In most cases it's an Object reporting controller implements,
     e.g. ReplicaSetController implements ReplicaSets and this event
     is emitted because it acts on some changes in a ReplicaSet object.
-  * related: the related related is the optional secondary object for
+  * related: the related is the optional secondary object for
     more complex actions. E.g. when regarding object triggers a creation
     or deletion of related object.
   * event_type: `:Normal` or `:Warning`
